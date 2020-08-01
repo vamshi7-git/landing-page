@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MITE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CSE <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">VISION</a></li>
+            <li><a href="#">MISSION</a></li>
+            <li><a href="#">ABOUT US</a></li>
+          </ul>
+        </li>
+        <li><a href="#">LABS</a></li>
+        <li><a href="#">ALUMINI & MOSC </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>COMPUTER SCIENCE AND ENGINEERING</h3>
+    <p>This branch of engineering is at the helm of express gateway of information technology and widely sought after. The computer centres at MITE has excellent, state-of-the-art infrastructure with more than 550 Pentium4 systems all on LAN with sophisticated servers and internet connectivity with adequate bandwidth. Requisite software for undertaking all kinds of latest projects are installed in these computers.</p>
+</div>
+<div>
+
+
+    <div class="container">
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="C:\Users\syeds\Desktop\mite3.jpg" alt="" style="width:100%; height: 600px;">
+            </div>
+      
+            <div class="item">
+              <img src="C:\Users\syeds\Desktop\programs.jpg" alt="mosc" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="C:\Users\syeds\Desktop\dc.jpg" alt="progate" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+</div>
+<body>
+
+    <div class="container mt-3">
+      <h2>Head of Department</h2>
+      <p>..</p>
+      <div class="media border p-3">
+        <img src="C:\Users\syeds\Desktop\pvd.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+        <div class="media-body">
+          <h4>DR. VENKATRAMANA BHAT P</h4>
+          <p> 
+            Designation: 
+            Professor & HoD
+            Department: 
+            Computer Science & Engineering
+            Profile
+            Responsibilities
+            Teaching
+            Research
+            Publications
+            Qualification: M.Tech, Ph.D Experience: 33 Years Dr. Venkatramana Bhat P. has got his M.Tech in Computer Science & Engg. from MIT, Manipal, Mangalore University and Ph.D in the topic “Data Communication in Large scale Mobile Sensor Networks” from Manipal University, Manipal. He has Published papers in 3 International Journals and presented 3 papers in international conferences and attended many Workshops / Seminars / International Conferences. He has Received Best paper award for the article “WSN in Disaster area Management” published in IJCNWMC © TJPRC Pvt. Ltd. in the year 2014. He has also served as Charge men (Quality Control Engineer) at Controllerate Quality Assurance Electronics (CQAL), Bangalore (under DRDO) for 6 months in the year 1989. He has handled various responsibilities and different roles in his Professional career. He has chaired sessions in the International Conference on Information and Communication Technologies (ICICT – 14)” on May 5th and 6th 2014 held at PESITM, Shivamogga. He was the organizing secretary of two days National conference on Signal and Image processing (NCSIP-2015) conducted at V.C.E.T puttur. He has Guided more than 25 projects for under graduates (B.E) course under VTU.
+          </p>     
+        </div>
+      </div>
+    </div>
+
+<div>
+
+</div>
+<div>
+
+    <div class="container">
+        <h2>PROFILE</h2>
+        <p></p>
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">panel</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">Research Interest:   Data structures ,Algorithm Design and Analysis,Computer Networks, Data base management Systems,Network Simulation using NS-2, WSN</div>
+              <div class="panel-footer">Teaching:   His fields of interest in the technical field are i) Data structures ii) Algorithm Design and Analysis iii) Computer Networks iv) Microprocessors v) System Software vi) Data base management Systems vii) Network Simulation using NS-2 (Implementing Protocols) viii) Advanced DBMS ix) Advanced Algorithms</div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div>
+
+    <img src="C:\Users\syeds\Desktop\cselab.png"   style="margin-left: 300px;">
+
+</div>
+<div>
+    <img src="C:\Users\syeds\Desktop\cselab2.png"   style="margin-left: 900px; margin-top: -300px;">
+  
+</div>
+<div>
+    <div class="container">
+        <h2>Certified staffs</h2>
+        <p></p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Designation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mr.Annappa swamy</td>
+              <td>DR</td>
+              <td>Associate Professor</td>
+            </tr>
+            <tr>
+              <td>Mr.Shreekumar</td>
+              <td>T</td>
+              <td>Associate Professor</td>
+            </tr>
+            <tr>
+              <td>Mr.Ashwinkumar</td>
+              <td>M</td>
+              <td>Senior Assistant Professor</td>
+            </tr>
+            <tr>
+                <td>Mr,Ravinaryan</td>
+                <td>B</td>
+                <td>Senior Assistant Professor</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+</div>
+</body>
+</html>
